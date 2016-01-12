@@ -1,0 +1,7 @@
+---
+applications:
+ - name: HELLO
+   memory: 512M
+   instances: 1
+   domain: int.geointservices.io
+   command: node app.js
